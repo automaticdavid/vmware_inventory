@@ -2,8 +2,6 @@ plugin: vmware_vm_inventory
 strict: False
 validate_certs: False
 with_tags: True
-hostnames:
-  - guest.hostName
 keyed_groups:
   - key: tags
     prefix: tag_
