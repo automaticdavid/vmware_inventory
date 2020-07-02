@@ -1,0 +1,15 @@
+strict: False
+validate_certs: False
+with_tags: True
+hostnames:
+  - config.name
+keyed_groups:
+  - key: tags
+    prefix: tag_
+    separator: ""
+  - key: summary.runtime.powerState
+    prefix: ""
+    separator: ""
+  - key: guest.guestId
+    prefix: ""
+    separator: ""
