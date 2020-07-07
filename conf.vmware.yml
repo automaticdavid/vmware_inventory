@@ -13,7 +13,7 @@ keyed_groups:
     prefix: ""
     separator: ""
 hostnames:
-  - 'config.uuid'
+  - config.uuid
 properties: 
   - 'config.uuid'
   - 'config.name'
