@@ -20,4 +20,8 @@ properties:
 - 'config.guestId'
 - 'summary.runtime.powerState'
 - 'guest.ipAddress'
+compose:
+  ansible_host: 'guest.ipAddress'
+  composed_var: 'config.name'
+
    
