@@ -13,9 +13,9 @@ keyed_groups:
     prefix: ""
     separator: ""
 hostnames:
-  - config.uuid
+  - 'config.uuid'
 properties: 
-  - config.uuid
-  - config.name
-  - config.guestId
-  - summary.runtime.powerState
+  - 'config.uuid'
+  - 'config.name'
+  - 'config.guestId'
+  - 'summary.runtime.powerState'
