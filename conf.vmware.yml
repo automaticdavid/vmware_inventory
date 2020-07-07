@@ -12,3 +12,4 @@ keyed_groups:
   - key: guest.guestId
     prefix: ""
     separator: ""
+hostnames: ['config.name']
